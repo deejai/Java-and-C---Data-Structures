@@ -1,10 +1,13 @@
 # Java-and-C---Data-Structures
 ## Java
-javac sorts.java  
-**OPTION 1**: java sorts arg1 arg2 arg3 ... argn  
-**OPTION 2**: java sorts < input.txt (where input.txt has whitespace-separated arguments)
+javac [structure].java  
+java [structure]  
+Where [structure] is one of: stack, queue, circular_linked_list, binary_search_tree, hash_table  
+**Commands:**  
+
 
 ##C
-make sorts  
-**OPTION 1**: ./sorts arg1 arg2 arg3 ... argn  
-**OPTION 2**: ./sorts < input.txt (where input.txt has whitespace-separated arguments)
+make [structure]  
+./[structure]  
+Where [structure] is one of: stack, queue, circular_linked_list, binary_search_tree, hash_table  
+**Commands:**  
